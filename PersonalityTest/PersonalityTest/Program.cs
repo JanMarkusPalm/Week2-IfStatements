@@ -15,7 +15,7 @@ namespace PersonalityTest
 
             Console.WriteLine("mis su lemmikvärv on?");
 
-            string FavColor = Console.ReadLine();
+            string FavColor = Console.ReadLine().ToLower();
 
             if (FavColor == "punane")
             {
